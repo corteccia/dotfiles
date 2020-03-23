@@ -16,7 +16,7 @@ filetype plugin indent on    " required
 colorscheme gruvbox
 
 set t_Co=256
-set mouse=a 
+set mouse= 
 set termencoding=utf-8 
 set clipboard=unnamed
 set background=dark
