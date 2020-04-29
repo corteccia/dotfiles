@@ -6,3 +6,9 @@
     excludesFile = ~/.gitignore
     editor = vim
 
+[merge]
+	ff = only
+[pull]
+	ff = only
+[alias]
+	st = status
