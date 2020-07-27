@@ -11,7 +11,9 @@
     ~/.gitignore: git/gitignore
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
     ~/.oh-my-zsh/custom/themes/chill.zsh-theme: zsh/chill.zsh-theme
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - vim +PluginInstall +qall
+  - echo "Don't forget to install oh-my-zsh"
