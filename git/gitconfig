@@ -12,3 +12,5 @@
 	ff = only
 [alias]
 	st = status
+[push]
+	default = current
