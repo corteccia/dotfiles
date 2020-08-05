@@ -20,7 +20,9 @@ You will see output with links that would be created. Isn't it great?
 After it and after new changes you will probably need to do this:
 ```bash
 source ~/.zshrc
-tmux source-file ~/.tmux.conf
+tmuxconfig
 ```
+
+After the first source you will be able to source zshrc via `zshconfig`. 
 
 Ready! You are fabulous!
