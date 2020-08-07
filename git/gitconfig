@@ -12,5 +12,6 @@
 	ff = only
 [alias]
 	st = status
+    up = submodule update --init --recursive
 [push]
 	default = current
