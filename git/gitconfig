@@ -13,5 +13,6 @@
 [alias]
 	st = status
     up = submodule update --init --recursive
+    fpush = push --force
 [push]
 	default = current
