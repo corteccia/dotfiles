@@ -10,6 +10,7 @@
 	ff = only
 [pull]
 	ff = only
+	rebase = true
 [alias]
 	st = status
     up = submodule update --init --recursive
