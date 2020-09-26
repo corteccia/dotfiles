@@ -2,21 +2,29 @@
     name = Daria Kolodkina
     email = daria.kolodkina@emlid.com
     signingkey = D5F9A3DA4D3F02C5
+
 [core]
     excludesFile = ~/.gitignore
     editor = vim
 
 [merge]
 	ff = only
+
 [pull]
 	ff = only
 	rebase = true
+
 [alias]
 	st = status
-    up = submodule update --init --recursive
-    fpush = push --force
+  up = submodule update --init --recursive
+  fpush = push --force
+  next = rebase --continue
+  stop = rebase --abort
+  amend = commit --amend
+
 [push]
 	default = current
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
