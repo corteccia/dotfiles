@@ -8,14 +8,14 @@
     editor = vim
 
 [merge]
-	ff = only
+    ff = only
 
 [pull]
-	ff = only
-	rebase = true
+    ff = only
+    rebase = true
 
 [alias]
-	st = status
+    st = status
     up = submodule update --init --recursive
     fpush = push --force
     next = rebase --continue
@@ -23,10 +23,10 @@
     amend = commit --amend
 
 [push]
-	default = current
+    default = current
 
 [filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
