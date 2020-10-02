@@ -19,7 +19,7 @@
     up = submodule update --init --recursive
     fpush = push --force
     next = rebase --continue
-    stop = rebase --abort
+    abort = rebase --abort
     amend = commit --amend
 
 [push]
