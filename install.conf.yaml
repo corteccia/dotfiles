@@ -16,5 +16,6 @@
     ~/.atom/config.cson: atom/config.cson
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - apm install --packages-file atom/package-list.txt
   - vim +PluginInstall +qall
   - echo "Don't forget to install oh-my-zsh"
