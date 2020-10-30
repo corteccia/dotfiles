@@ -10,6 +10,8 @@ There are my personal dotfiles for vim, tmux, zsh and git. Those would update so
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+- installed atom; it can be done following easy instruction on https://atom.io/
+
 # Usage
 
 Git clone it. Go to the directory and simply run:
