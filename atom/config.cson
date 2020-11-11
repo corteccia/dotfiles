@@ -1,14 +1,20 @@
 "*":
   core:
+    disabledPackages: [
+      "language-gfm"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-  editor: {}
+  editor:
+    tabLength: 4
   "exception-reporting":
     userId: "8784d538-aac2-440c-917c-c7cce3a80e4a"
   "markdown-preview": {}
+  welcome:
+    showOnStartup: false
   whitespace:
     removeTrailingWhitespace: false
 ".slim.text":
