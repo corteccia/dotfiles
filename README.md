@@ -18,7 +18,7 @@ There are my personal dotfiles for vim, tmux, zsh and git. Those would update so
 
 don't forget to remove `~/.zshrc` after installing since dotbot will install the new one;
 
-- installed atom; it can be done following easy instruction on https://atom.io/
+- installed atom; it can be done following easy instruction on [Atom.io](https://atom.io/);
 
 don't forget to open atom at least one time before running dotbot;
 
