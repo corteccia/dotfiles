@@ -1,6 +1,6 @@
 [user]
-	name = Daria Kolodkina
-	email = daria.kolodkina@emlid.com
+    name = Daria Kolodkina
+    email = daria.kolodkina@emlid.com
     signingkey = D5F9A3DA4D3F02C5
 
 [core]
