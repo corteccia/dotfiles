@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias qgc="~/Downloads/QGroundControl.AppImage"
-alias etcher="~/Downloads/balenaEtcher-1.5.109-x64.AppImage"
+alias etcher="~/Downloads/balenaEtcher-1.5.116-x64.AppImage"
 alias tmuxconfig="tmux source-file ~/.tmux.conf"
 alias zshconfig="source ~/.zshrc"
 alias waf="$PWD/modules/waf/waf-light"
