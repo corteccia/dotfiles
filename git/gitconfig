@@ -20,7 +20,7 @@
     fpush = push --force
     next = rebase --continue
     abort = rebase --abort
-    amend = commit --amend
+    amend = commit --amend --no-edit
 
 [push]
     default = current
