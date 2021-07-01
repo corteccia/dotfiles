@@ -2,6 +2,7 @@
   core:
     disabledPackages: [
       "language-gfm"
+      "linter-pylint"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -12,6 +13,21 @@
     tabLength: 4
   "exception-reporting":
     userId: "8784d538-aac2-440c-917c-c7cce3a80e4a"
+  "linter-flake8":
+    maxLineLength: 100
+  "linter-mypy":
+    checkUntypedDefs: false
+    disallowUntypedCalls: false
+    disallowUntypedDefs: false
+    disallowUntypedGlobals: false
+    lintTrigger: "LintAsYouType"
+    warnReturnAny: false
+  "linter-pydocstyle":
+    ignoreCodes: "D100, D101, D102, D103"
+  "linter-pylint":
+    messageFormat: "%i %m %s"
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview": {}
   welcome:
     showOnStartup: false
