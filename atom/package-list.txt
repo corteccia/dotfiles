@@ -7,5 +7,6 @@ linter-flake8@2.4.0
 linter-mypy@2.6.11
 linter-pydocstyle@0.4.7
 linter-pylint@2.1.1
+linter-shellcheck@1.6.0
 linter-ui-default@3.4.1
 seti-ui@1.11.0
