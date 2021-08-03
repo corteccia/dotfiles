@@ -24,6 +24,8 @@
 	chp = cherry-pick
 	chp-next = cherry-pick --continue
 	chp-abort = cherry-pick --abort
+	master = pull origin master
+	dev = pull origin dev
 
 [push]
     default = current
