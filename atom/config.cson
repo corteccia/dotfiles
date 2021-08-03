@@ -14,7 +14,7 @@
   "exception-reporting":
     userId: "8784d538-aac2-440c-917c-c7cce3a80e4a"
   "linter-flake8":
-    maxLineLength: 100
+    maxLineLength: 120
   "linter-mypy":
     checkUntypedDefs: false
     disallowUntypedCalls: false
@@ -23,11 +23,10 @@
     lintTrigger: "LintAsYouType"
     warnReturnAny: false
   "linter-pydocstyle":
-    ignoreCodes: "D100, D101, D102, D103"
+    ignoreCodes: "D100, D101, D102, D103, D107"
   "linter-pylint":
     messageFormat: "%i %m %s"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-preview": {}
   welcome:
     showOnStartup: false
