@@ -21,6 +21,9 @@
     next = rebase --continue
     abort = rebase --abort
     amend = commit --amend --no-edit
+	chp = cherry-pick
+	chp-next = cherry-pick --continue
+	chp-abort = cherry-pick --abort
 
 [push]
     default = current
