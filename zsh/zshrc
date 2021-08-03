@@ -41,7 +41,7 @@ alias etcher="~/Downloads/balenaEtcher-1.5.116-x64.AppImage"
 alias cubemx="~/STM32CubeMX/STM32CubeMX"
 alias tmuxconfig="tmux source-file ~/.tmux.conf"
 alias zshconfig="source ~/.zshrc"
-alias waf="$PWD/modules/waf/waf-light"
 alias ssh-new="ssh-keygen -f ~/.ssh/known_hosts -R"
+alias gco="git checkout "
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
