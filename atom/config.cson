@@ -1,4 +1,5 @@
 "*":
+  "atom-inline-blame": {}
   core:
     disabledPackages: [
       "language-gfm"
