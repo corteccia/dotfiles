@@ -1,5 +1,6 @@
 "*":
-  "atom-inline-blame": {}
+  "atom-inline-blame":
+    format: "%author%, %relativeTime% ago - %summary%, %sha%"
   core:
     disabledPackages: [
       "language-gfm"
