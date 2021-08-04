@@ -41,7 +41,7 @@ Ready! You are fabulous!
 
 # How to update Atom packages
 
-To update [atom package list](https://github.com/corteccia/dotfiles/blob/master/atom/package-list.txt), you need to run the following:
+To update [atom package list](atom/package-list.txt), you need to run the following:
 
 ```bash
 apm list --installed --bare > atom/package-list.txt
