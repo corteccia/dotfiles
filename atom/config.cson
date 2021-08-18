@@ -2,10 +2,12 @@
   "atom-inline-blame":
     format: "%author%, %relativeTime% ago - %summary%, %sha%"
   core:
+    closeDeletedFileTabs: true
     disabledPackages: [
       "language-gfm"
       "linter-pylint"
     ]
+    projectHome: "/home/daria/work"
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
