@@ -5,7 +5,6 @@
     closeDeletedFileTabs: true
     disabledPackages: [
       "language-gfm"
-      "linter-pylint"
     ]
     projectHome: "/home/daria/work"
     telemetryConsent: "limited"
@@ -19,6 +18,9 @@
     userId: "8784d538-aac2-440c-917c-c7cce3a80e4a"
   "linter-flake8":
     maxLineLength: 120
+    projectConfigFile: [
+      "/home/daria/work/code-quality/python/flake8"
+    ]
   "linter-mypy":
     checkUntypedDefs: false
     disallowUntypedCalls: false
@@ -30,6 +32,7 @@
     ignoreCodes: "D100, D101, D102, D103, D107"
   "linter-pylint":
     messageFormat: "%i %m %s"
+    rcFile: "/home/daria/work/code-quality/python/pylintrc"
   "linter-ui-default": {}
   "markdown-preview": {}
   welcome:
