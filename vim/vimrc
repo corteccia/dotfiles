@@ -9,6 +9,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'morhetz/gruvbox'
 
+Plugin 'rhysd/vim-grammarous'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 

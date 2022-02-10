@@ -25,3 +25,6 @@
 [submodule "zsh/history-search-multi-word"]
 	path = zsh/history-search-multi-word
 	url = git@github.com:zdharma/history-search-multi-word.git
+[submodule "vim/bundle/vim-grammarous"]
+	path = vim/bundle/vim-grammarous
+	url = git@github.com:rhysd/vim-grammarous.git
