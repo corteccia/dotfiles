@@ -6,6 +6,7 @@
 [core]
     excludesFile = ~/.gitignore
     editor = vim
+	whitespace = cr-at-eol
 
 [merge]
     ff = only
