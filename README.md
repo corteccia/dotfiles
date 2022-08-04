@@ -46,3 +46,11 @@ To update [atom package list](atom/package-list.txt), you need to run the follow
 ```bash
 apm list --installed --bare > atom/package-list.txt
 ```
+
+# How to update VSCode extensions
+
+To update [vscode extensions list](vscode/extensions.txt), you need to run the following:
+
+```bash
+code --list-extensions > vscode/extensions.txt
+```
