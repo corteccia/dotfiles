@@ -1,5 +1,4 @@
 {
-    "python.defaultInterpreterPath": "/bin/python3",
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "gitlens.codeLens.enabled": false,
@@ -683,5 +682,18 @@
             "url": "https://github.com/adrienverge/yamllint"
         }
     },
-    "linter.debug": true
+    "linter.debug": true,
+    "python.defaultInterpreterPath": "/bin/python3",
+    "grammarly.config.suggestions.OxfordComma": true,
+    "grammarly.config.suggestions.PassiveVoice": true,
+    "grammarly.config.suggestions.PossiblyBiasedLanguageLgbtqiaRelated": false,
+    "grammarly.config.suggestions.PossiblyBiasedLanguageRaceEthnicityRelated": false,
+    "grammarly.config.suggestions.StylisticFragments": true,
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.md"
+    ],
+    "grammarly.startTextCheckInPausedState": true
 }

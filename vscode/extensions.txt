@@ -26,4 +26,5 @@ seanwu.vscode-qt-for-python
 tinkertrain.theme-panda
 twxs.cmake
 waderyan.gitblame
+znck.grammarly
 zxh404.vscode-proto3
