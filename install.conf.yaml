@@ -13,12 +13,10 @@
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
     ~/.oh-my-zsh/custom/themes/chill.zsh-theme: zsh/chill.zsh-theme
-    ~/.atom/config.cson: atom/config.cson
     ~/.config/Code/User/settings.json: vscode/settings.json
     ~/.pylintrc: linters/pylintrc
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - apm install --packages-file atom/package-list.txt
   - cat extensions.txt | xargs -L 1 code --install-extension --force
   - vim +PluginInstall +qall
   - echo "Don't forget to install oh-my-zsh"
