@@ -690,8 +690,6 @@
     "grammarly.config.suggestions.PossiblyBiasedLanguageRaceEthnicityRelated": false,
     "grammarly.config.suggestions.StylisticFragments": true,
     "grammarly.files.include": [
-        "**/readme.md",
-        "**/README.md",
         "**/*.txt",
         "**/*.md"
     ],
