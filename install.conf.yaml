@@ -14,7 +14,7 @@
     ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
     ~/.oh-my-zsh/custom/themes/chill.zsh-theme: zsh/chill.zsh-theme
     ~/.atom/config.cson: atom/config.cson
-    ~/.config/Code/User/settigns.json: vscode/settings.json
+    ~/.config/Code/User/settings.json: vscode/settings.json
     ~/.pylintrc: pylint/pylintrc
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
