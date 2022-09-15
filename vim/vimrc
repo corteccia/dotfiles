@@ -46,4 +46,8 @@ syntax on
 set number
 set hlsearch
 
+let g:grammarous#disabled_rules = {
+            \ '*' : ['UPPERCASE_SENTENCE_START', 'WHITESPACE_RULE', 'EN_QUOTES'],
+            \ }
+
 filetype indent on
