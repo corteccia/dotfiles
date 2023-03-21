@@ -696,5 +696,6 @@
         "**/*.txt",
         "**/*.md"
     ],
-    "grammarly.startTextCheckInPausedState": true
+    "grammarly.startTextCheckInPausedState": true,
+    "editor.minimap.renderCharacters": false
 }
