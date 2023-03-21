@@ -39,3 +39,5 @@
 
 [help]
     autocorrect = 5
+[safe]
+	directory = *
