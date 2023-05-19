@@ -45,4 +45,8 @@ alias ssh-new="ssh-keygen -f ~/.ssh/known_hosts -R"
 alias gco="git checkout "
 alias gti="git"
 alias windows="virtualbox /media/daria/drs/Windows\ 10\ For\ Flasher\ Clone/Windows\ 10\ For\ Flasher\ Clone/Windows\ 10\ For\ Flasher\ Clone.vbox"
+
+
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
