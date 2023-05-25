@@ -50,3 +50,26 @@ alias windows="virtualbox /media/daria/drs/Windows\ 10\ For\ Flasher\ Clone/Wind
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+realPS1="$PS1"
+changed=false
+
+hide() {
+
+   $changed && {
+
+      PS1="%n (normal) in %~> "
+      #Or
+      PS1="$realPS1"
+
+      changed=false
+      : # <-- It might be not necessary add this `:`. This one
+        #represents a zero-status code (or successful).
+
+   } || {
+      PS1="%n (hidden)> "
+      changed=true
+   }
+}
+
+bindkey -s "^H" 'hide^M'
