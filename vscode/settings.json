@@ -697,5 +697,7 @@
         "**/*.md"
     ],
     "grammarly.startTextCheckInPausedState": true,
-    "editor.minimap.renderCharacters": false
+    "editor.minimap.renderCharacters": false,
+    "githubPullRequests.pullBranch": "never",
+    "git.autofetch": true
 }
