@@ -41,3 +41,5 @@
     autocorrect = 5
 [safe]
 	directory = *
+[remote "origin"]
+	prune = true
