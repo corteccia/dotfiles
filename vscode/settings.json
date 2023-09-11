@@ -699,5 +699,6 @@
     "grammarly.startTextCheckInPausedState": true,
     "editor.minimap.renderCharacters": false,
     "githubPullRequests.pullBranch": "never",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "editor.minimap.enabled": false
 }
