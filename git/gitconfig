@@ -25,6 +25,7 @@
 	chp = cherry-pick
 	chp-next = cherry-pick --continue
 	chp-abort = cherry-pick --abort
+	skip = cherry-pick --skip
 	master = pull origin master
 	dev = pull origin dev
 
