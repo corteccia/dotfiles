@@ -42,6 +42,7 @@ alias ssh-new="ssh-keygen -f ~/.ssh/known_hosts -R"
 alias gco="git checkout "
 alias gti="git"
 alias windows="virtualbox /media/daria/drs/Windows\ 10\ For\ Flasher\ Clone/Windows\ 10\ For\ Flasher\ Clone/Windows\ 10\ For\ Flasher\ Clone.vbox"
+alias open="nautilus"
 
 export drs=/media/daria/drs
 
