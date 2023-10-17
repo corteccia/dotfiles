@@ -700,5 +700,6 @@
     "editor.minimap.renderCharacters": false,
     "githubPullRequests.pullBranch": "never",
     "git.autofetch": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "genieai.enableConversationHistory": true
 }
