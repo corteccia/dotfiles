@@ -44,6 +44,7 @@ alias gti="git"
 alias got="git"
 alias windows="virtualbox /media/daria/drs/Windows\ 10\ For\ Flasher\ Clone/Windows\ 10\ For\ Flasher\ Clone/Windows\ 10\ For\ Flasher\ Clone.vbox"
 alias open="nautilus"
+alias git-clean="git branch | grep -vw dev | grep -vw master | xargs git branch -D"
 
 export drs=/media/daria/drs
 
