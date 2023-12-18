@@ -701,5 +701,9 @@
     "githubPullRequests.pullBranch": "never",
     "git.autofetch": true,
     "editor.minimap.enabled": false,
-    "genieai.enableConversationHistory": true
+    "genieai.enableConversationHistory": true,
+    "genieai.openai.model": "gpt-3.5-turbo",
+    "pylint.args": [
+        "[\"--rcfile=~/.pylintrc\"]"
+    ]
 }
