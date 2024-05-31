@@ -33,5 +33,4 @@ trabpukcip.wolf
 waderyan.gitblame
 xaver.clang-format
 ziyasal.vscode-open-in-github
-znck.grammarly
 zxh404.vscode-proto3
