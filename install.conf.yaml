@@ -22,6 +22,6 @@
   - sudo dpkg --set-selections < ubuntu/installed-packages
   - sudo dselect install
   - guake --restore-preferences guake/preferences
-  - cat vscode/extensions.txt | xargs -L 1 code --install-extension --force
+  - cat vscode/extensions.txt | xargs -L 1 code --install-extension
   - vim +PluginInstall +qall
   - echo "Don't forget to install oh-my-zsh"
