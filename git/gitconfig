@@ -13,7 +13,7 @@
 
 [pull]
     ff = only
-    rebase = true
+	rebase = true
 
 [alias]
     st = status
@@ -26,8 +26,8 @@
 	chp-next = cherry-pick --continue
 	chp-abort = cherry-pick --abort
 	skip = cherry-pick --skip
-	master = pull origin master
-	dev = pull origin dev
+	master = pull origin master --rebase
+	dev = pull origin dev --rebase
 
 [push]
     default = current
