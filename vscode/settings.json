@@ -849,5 +849,7 @@
     "qttools.creator": "/home/daria/Qt/Tools/QtCreator/bin/qtcreator",
     "C_Cpp.default.includePath": [
         "/home/daria/Qt/5.15.2/**"
-    ]
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.showOptionsMovedNotification": false
 }
