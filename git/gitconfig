@@ -44,3 +44,5 @@
 	directory = *
 [remote "origin"]
 	prune = true
+[advice]
+	skippedCherryPicks = false 
