@@ -681,7 +681,7 @@
         }
     },
     "linter.debug": true,
-    "python.defaultInterpreterPath": "/bin/python3",
+    "python.defaultInterpreterPath": "/bin/python3.11",
     "grammarly.config.suggestions.OxfordComma": true,
     "grammarly.config.suggestions.PassiveVoice": true,
     "grammarly.config.suggestions.PossiblyBiasedLanguageLgbtqiaRelated": false,
@@ -774,6 +774,7 @@
         "herror",
         "hexa",
         "hexify",
+        "IFACE",
         "ifaces",
         "ifaddresses",
         "ifname",
@@ -782,6 +783,7 @@
         "importpfx",
         "INVOKABLE",
         "ioreg",
+        "IPERF",
         "ipynb",
         "JTAG",
         "Kbps",
@@ -876,6 +878,7 @@
         "udevadm",
         "uids",
         "ujson",
+        "unflashed",
         "unswitched",
         "urwid",
         "USBC",
@@ -900,9 +903,10 @@
         "refactor": "Information"
     },
     "pylint.showNotifications": "always",
-    "ruff.format.args": [
-        "--config=/home/daria/work/emlid-flasher/code-quality/python/ruff.toml"
-    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "ruff.configuration": "/home/daria/work/emlid-flasher/ruff.toml",
     "genieai.personalizedName": "brother",
     "genieai.openai.temperature": 0,
     "[cpp]": {
@@ -925,5 +929,17 @@
     "vscode-pets.petSize": "large",
     "vscode-pets.petType": "rat",
     "vscode-pets.theme": "winter",
-    "vscode-pets.throwBallWithMouse": true
+    "vscode-pets.throwBallWithMouse": true,
+    "ruff.lint.ignore": [
+        "PLR0913"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/usr/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/usr/local/lib/python3.10/dist-packages"
+    ],
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "gitlens.rebase"
+    }
 }
