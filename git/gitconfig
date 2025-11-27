@@ -28,6 +28,7 @@
 	skip = cherry-pick --skip
 	master = pull origin master --rebase
 	dev = pull origin dev --rebase
+    empty = git commit --allow-empty
 
 [push]
     default = current
